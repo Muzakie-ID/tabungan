@@ -52,8 +52,8 @@ Ada dua cara untuk menjalankan proyek ini: secara lokal (menggunakan XAMPP/Larag
 
 1.  **Clone Repository**
     ```bash
-    git clone [https://github.com/USERNAME/NAMA_REPO.git](https://github.com/USERNAME/NAMA_REPO.git)
-    cd NAMA_REPO
+    git clone [https://github.com/USERNAME/NAMA_REPO.git](https://github.com/Muzakie_ID/tabungan.git)
+    cd tabungan
     ```
 
 2.  **Struktur Folder**

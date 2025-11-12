@@ -1,10 +1,3 @@
-Tentu saja. Ini adalah draf `README.md` yang lengkap, profesional, dan terstruktur dengan baik untuk proyek GitHub Anda. Ini mencakup semua yang telah kita bangun, dari fitur inti hingga *deployment* dengan Docker.
-
-Anda hanya perlu menyalin dan menempelkan ini ke dalam file bernama `README.md` di *root* folder proyek Anda.
-
------
-
-````markdown
 # NabungYuk - Aplikasi Menabung Bersama
 
 NabungYuk adalah aplikasi web *fintech* sederhana yang dirancang untuk membantu pengguna mengelola tujuan tabungan mereka, baik secara pribadi maupun bersama pasangan. Aplikasi ini dibangun dengan PHP native dan MySQL, dengan fokus pada fungsionalitas inti, keamanan, dan pengalaman pengguna yang modern.
@@ -187,10 +180,6 @@ CREATE TABLE `transactions` (
   FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)
 ) ENGINE=InnoDB;
 
-````
-
------
-
 ## 📝 Alur Pengguna (Contoh)
 
 1.  **Pengguna A** dan **Pengguna B** mendaftarkan akun.
@@ -204,7 +193,6 @@ CREATE TABLE `transactions` (
 9.  Keduanya bisa melihat total tabungan (Rp 80.000) dan rincian kontribusi.
 10. **Pengguna A** (sebagai pembuat) dapat mengedit atau menghapus *goal* tersebut.
 
------
 
 ## 📄 Lisensi
 

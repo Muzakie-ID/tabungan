@@ -179,6 +179,7 @@ CREATE TABLE `transactions` (
   FOREIGN KEY (`goal_id`) REFERENCES `saving_goals` (`id`) ON DELETE CASCADE,
   FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)
 ) ENGINE=InnoDB;
+```
 
 ## 📝 Alur Pengguna (Contoh)
 
@@ -198,5 +199,4 @@ CREATE TABLE `transactions` (
 
 Proyek ini dilisensikan di bawah [MIT License](https://www.google.com/search?q=LICENSE).
 
-```
-```
+
